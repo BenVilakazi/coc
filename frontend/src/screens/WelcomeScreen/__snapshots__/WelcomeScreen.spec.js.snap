@@ -1,0 +1,488 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeScreen render renders correctly 1`] = `
+.c2 {
+  display: block;
+  border: 2px solid var(--primary-text-color);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7em;
+  background: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background: var(--accent-background-color);
+  cursor: pointer;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: center;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c3 p {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+
+.c3 a {
+  color: var(--secondary-text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  height: min(20vh,400px);
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 .welcome-to {
+  display: none;
+}
+
+.c1 .CoC {
+  font-size: clamp(48px,4.5vw,110px);
+  font-weight: 700;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-bottom: -7px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--primary-background-color);
+}
+
+.c0 main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.c0 .definition-container {
+  display: none;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  font-weight: 700;
+}
+
+.c0 .definition {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.c0 .definition-container p {
+  display: inline-block;
+}
+
+.c0 .button-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: 900;
+  width: 317px;
+  height: 82px;
+  font-size: 3.6rem;
+}
+
+.c0 .host-button {
+  display: none;
+}
+
+.c0 .OR {
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  border-radius: 50%;
+  padding: 16px;
+}
+
+@media (orientation:portrait) {
+  .c3 {
+    height: 120px;
+    background-color: transparent;
+    color: var(--accent-text-color);
+  }
+
+  .c3 p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .c3 a {
+    color: var(--accent-text-color);
+    display: block;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 90px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 110px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 122px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:491px) {
+  .c1 .welcome-to {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: clamp(18px,1.7vw,42px);
+    margin-bottom: max(-0.7vw,-10px);
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
+
+@media (min-width:600px) {
+  .c1 .CoC {
+    margin-bottom: -8px;
+    margin-bottom: max(-0.8vw,-20px);
+  }
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+  .c1 {
+    height: 80px;
+  }
+}
+
+@media (min-width:680px) {
+  .c0 .OR {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 51px;
+    height: 51px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .c0 .host-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .c0 .definition-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 2.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 70px;
+  }
+
+  .c0 .definition {
+    font-size: 1.5rem;
+  }
+
+  .c0 .button {
+    width: 200px;
+    height: 51px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:950px) {
+  .c0 .definition-container {
+    font-size: 3.2rem;
+    line-height: 2.6rem;
+    margin-bottom: 90px;
+  }
+
+  .c0 .definition {
+    font-size: 2.5rem;
+  }
+
+  .c0 .button {
+    width: 256px;
+    height: 66px;
+    font-size: 2.5rem;
+  }
+
+  .c0 .OR {
+    width: 66px;
+    height: 66px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 .definition-container {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+    margin-bottom: 190px;
+  }
+
+  .c0 .definition {
+    font-size: 3.5rem;
+  }
+
+  .c0 .button {
+    width: 290px;
+    height: 74px;
+    font-size: 3.2rem;
+  }
+
+  .c0 .OR {
+    width: 74px;
+    height: 74px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:3200px) {
+  .c0 .definition-container {
+    font-size: 6.5rem;
+    line-height: 4.8rem;
+    margin-bottom: 300px;
+  }
+
+  .c0 .definition {
+    font-size: 5rem;
+  }
+
+  .c0 .button {
+    width: 490px;
+    height: 126px;
+    font-size: 5.2rem;
+  }
+
+  .c0 .OR {
+    width: 126px;
+    height: 126px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 3.8rem;
+  }
+}
+
+<div
+  className="c0 primary-background"
+>
+  <header
+    className="c1"
+    data-testid="header"
+  >
+    <p
+      className="welcome-to"
+      data-testid="welcome-text"
+    >
+      WELCOME TO
+    </p>
+    <h1
+      className="CoC"
+    >
+      CARDS OF CAROUSAL
+    </h1>
+  </header>
+  <main>
+    <div
+      className="definition-container"
+    >
+      <p
+        className="word"
+      >
+        CAROUSAL 
+        <span
+          className="definition"
+        >
+          (n)
+        </span>
+      </p>
+      <p
+        className="definition"
+      >
+        a wild, drunken party or celebration : a drunken revel
+      </p>
+    </div>
+    <div
+      className="button-container"
+    >
+      <button
+        className="c2 button"
+        onClick={[Function]}
+        type="button"
+      >
+        <p>
+          JOIN
+        </p>
+      </button>
+      <div
+        className="OR"
+      >
+        OR
+      </div>
+      <button
+        className="c2 button host-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <p>
+          HOST
+        </p>
+      </button>
+    </div>
+  </main>
+  <footer
+    className="c3"
+    data-testid="footer"
+  >
+    <p>
+      Card content thanks to:
+       
+      <a
+        href="https://cardsagainsthumanity.com"
+      >
+        https://cardsagainsthumanity.com
+      </a>
+    </p>
+    <p>
+      Made by Odin students, with love:
+       
+      <a
+        href="https://www.theodinproject.com"
+      >
+        https://www.theodinproject.com
+      </a>
+    </p>
+  </footer>
+</div>
+`;

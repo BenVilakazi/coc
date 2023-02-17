@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderFooterLayout render renders correctly 1`] = `
+Array [
+  .c0 {
+  height: min(20vh,400px);
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c0 .welcome-to {
+  display: none;
+}
+
+.c0 .CoC {
+  font-size: clamp(48px,4.5vw,110px);
+  font-weight: 700;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-bottom: -7px;
+}
+
+@media (orientation:portrait) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:491px) {
+  .c0 .welcome-to {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: clamp(18px,1.7vw,42px);
+    margin-bottom: max(-0.7vw,-10px);
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
+
+@media (min-width:600px) {
+  .c0 .CoC {
+    margin-bottom: -8px;
+    margin-bottom: max(-0.8vw,-20px);
+  }
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+  .c0 {
+    height: 80px;
+  }
+}
+
+<header
+    className="c0"
+    data-testid="header"
+  >
+    <h1
+      className="CoC"
+    >
+      CARDS OF CAROUSAL
+    </h1>
+  </header>,
+  "Test",
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: center;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c0 p {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+
+.c0 a {
+  color: var(--secondary-text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (orientation:portrait) {
+  .c0 {
+    height: 120px;
+    background-color: transparent;
+    color: var(--accent-text-color);
+  }
+
+  .c0 p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .c0 a {
+    color: var(--accent-text-color);
+    display: block;
+  }
+}
+
+@media (min-width:) {
+  .c0 {
+    height: 90px;
+  }
+
+  .c0 p,
+  .c0 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:) {
+  .c0 {
+    height: 110px;
+  }
+
+  .c0 p,
+  .c0 a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:) {
+  .c0 {
+    height: 122px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+  }
+
+  .c0 p,
+  .c0 a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:491px) {
+
+}
+
+@media (min-width:600px) {
+
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+
+}
+
+<footer
+    className="c0"
+    data-testid="footer"
+  >
+    <p>
+      Card content thanks to:
+       
+      <a
+        href="https://cardsagainsthumanity.com"
+      >
+        https://cardsagainsthumanity.com
+      </a>
+    </p>
+    <p>
+      Made by Odin students, with love:
+       
+      <a
+        href="https://www.theodinproject.com"
+      >
+        https://www.theodinproject.com
+      </a>
+    </p>
+  </footer>,
+]
+`;
+
+exports[`HeaderFooterLayout render renders correctly with the isWelcoming prop 1`] = `
+Array [
+  .c0 {
+  height: min(20vh,400px);
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c0 .welcome-to {
+  display: none;
+}
+
+.c0 .CoC {
+  font-size: clamp(48px,4.5vw,110px);
+  font-weight: 700;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-bottom: -7px;
+}
+
+@media (orientation:portrait) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:491px) {
+  .c0 .welcome-to {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: clamp(18px,1.7vw,42px);
+    margin-bottom: max(-0.7vw,-10px);
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
+
+@media (min-width:600px) {
+  .c0 .CoC {
+    margin-bottom: -8px;
+    margin-bottom: max(-0.8vw,-20px);
+  }
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+  .c0 {
+    height: 80px;
+  }
+}
+
+<header
+    className="c0"
+    data-testid="header"
+  >
+    <p
+      className="welcome-to"
+      data-testid="welcome-text"
+    >
+      WELCOME TO
+    </p>
+    <h1
+      className="CoC"
+    >
+      CARDS OF CAROUSAL
+    </h1>
+  </header>,
+  "Test",
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: center;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c0 p {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+
+.c0 a {
+  color: var(--secondary-text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+@media (orientation:portrait) {
+  .c0 {
+    height: 120px;
+    background-color: transparent;
+    color: var(--accent-text-color);
+  }
+
+  .c0 p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .c0 a {
+    color: var(--accent-text-color);
+    display: block;
+  }
+}
+
+@media (min-width:) {
+  .c0 {
+    height: 90px;
+  }
+
+  .c0 p,
+  .c0 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:) {
+  .c0 {
+    height: 110px;
+  }
+
+  .c0 p,
+  .c0 a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:) {
+  .c0 {
+    height: 122px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+  }
+
+  .c0 p,
+  .c0 a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:491px) {
+
+}
+
+@media (min-width:600px) {
+
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+
+}
+
+<footer
+    className="c0"
+    data-testid="footer"
+  >
+    <p>
+      Card content thanks to:
+       
+      <a
+        href="https://cardsagainsthumanity.com"
+      >
+        https://cardsagainsthumanity.com
+      </a>
+    </p>
+    <p>
+      Made by Odin students, with love:
+       
+      <a
+        href="https://www.theodinproject.com"
+      >
+        https://www.theodinproject.com
+      </a>
+    </p>
+  </footer>,
+]
+`;

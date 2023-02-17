@@ -1,0 +1,2573 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshots should initially show the welcome screen 1`] = `
+.c2 {
+  display: block;
+  border: 2px solid var(--primary-text-color);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7em;
+  background: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background: var(--accent-background-color);
+  cursor: pointer;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: center;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c3 p {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+
+.c3 a {
+  color: var(--secondary-text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  height: min(20vh,400px);
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 .welcome-to {
+  display: none;
+}
+
+.c1 .CoC {
+  font-size: clamp(48px,4.5vw,110px);
+  font-weight: 700;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-bottom: -7px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--primary-background-color);
+}
+
+.c0 main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.c0 .definition-container {
+  display: none;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  font-weight: 700;
+}
+
+.c0 .definition {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.c0 .definition-container p {
+  display: inline-block;
+}
+
+.c0 .button-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: 900;
+  width: 317px;
+  height: 82px;
+  font-size: 3.6rem;
+}
+
+.c0 .host-button {
+  display: none;
+}
+
+.c0 .OR {
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  border-radius: 50%;
+  padding: 16px;
+}
+
+@media (orientation:portrait) {
+  .c3 {
+    height: 120px;
+    background-color: transparent;
+    color: var(--accent-text-color);
+  }
+
+  .c3 p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .c3 a {
+    color: var(--accent-text-color);
+    display: block;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 90px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 110px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 122px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:491px) {
+  .c1 .welcome-to {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: clamp(18px,1.7vw,42px);
+    margin-bottom: max(-0.7vw,-10px);
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
+
+@media (min-width:600px) {
+  .c1 .CoC {
+    margin-bottom: -8px;
+    margin-bottom: max(-0.8vw,-20px);
+  }
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+  .c1 {
+    height: 80px;
+  }
+}
+
+@media (min-width:680px) {
+  .c0 .OR {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 51px;
+    height: 51px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .c0 .host-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .c0 .definition-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 2.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 70px;
+  }
+
+  .c0 .definition {
+    font-size: 1.5rem;
+  }
+
+  .c0 .button {
+    width: 200px;
+    height: 51px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:950px) {
+  .c0 .definition-container {
+    font-size: 3.2rem;
+    line-height: 2.6rem;
+    margin-bottom: 90px;
+  }
+
+  .c0 .definition {
+    font-size: 2.5rem;
+  }
+
+  .c0 .button {
+    width: 256px;
+    height: 66px;
+    font-size: 2.5rem;
+  }
+
+  .c0 .OR {
+    width: 66px;
+    height: 66px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 .definition-container {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+    margin-bottom: 190px;
+  }
+
+  .c0 .definition {
+    font-size: 3.5rem;
+  }
+
+  .c0 .button {
+    width: 290px;
+    height: 74px;
+    font-size: 3.2rem;
+  }
+
+  .c0 .OR {
+    width: 74px;
+    height: 74px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:3200px) {
+  .c0 .definition-container {
+    font-size: 6.5rem;
+    line-height: 4.8rem;
+    margin-bottom: 300px;
+  }
+
+  .c0 .definition {
+    font-size: 5rem;
+  }
+
+  .c0 .button {
+    width: 490px;
+    height: 126px;
+    font-size: 5.2rem;
+  }
+
+  .c0 .OR {
+    width: 126px;
+    height: 126px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 3.8rem;
+  }
+}
+
+<div
+  className="c0 primary-background"
+>
+  <header
+    className="c1"
+    data-testid="header"
+  >
+    <p
+      className="welcome-to"
+      data-testid="welcome-text"
+    >
+      WELCOME TO
+    </p>
+    <h1
+      className="CoC"
+    >
+      CARDS OF CAROUSAL
+    </h1>
+  </header>
+  <main>
+    <div
+      className="definition-container"
+    >
+      <p
+        className="word"
+      >
+        CAROUSAL 
+        <span
+          className="definition"
+        >
+          (n)
+        </span>
+      </p>
+      <p
+        className="definition"
+      >
+        a wild, drunken party or celebration : a drunken revel
+      </p>
+    </div>
+    <div
+      className="button-container"
+    >
+      <button
+        className="c2 button"
+        onClick={[Function]}
+        type="button"
+      >
+        <p>
+          JOIN
+        </p>
+      </button>
+      <div
+        className="OR"
+      >
+        OR
+      </div>
+      <button
+        className="c2 button host-button"
+        onClick={[Function]}
+        type="button"
+      >
+        <p>
+          HOST
+        </p>
+      </button>
+    </div>
+  </main>
+  <footer
+    className="c3"
+    data-testid="footer"
+  >
+    <p>
+      Card content thanks to:
+       
+      <a
+        href="https://cardsagainsthumanity.com"
+      >
+        https://cardsagainsthumanity.com
+      </a>
+    </p>
+    <p>
+      Made by Odin students, with love:
+       
+      <a
+        href="https://www.theodinproject.com"
+      >
+        https://www.theodinproject.com
+      </a>
+    </p>
+  </footer>
+</div>
+`;
+
+exports[`App snapshots should show the host screen after user has clicked the "host" button 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  overflow: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 10200;
+  background-color: var(--primary-background-color);
+}
+
+@media (orientation:portrait) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:491px) {
+
+}
+
+@media (min-width:600px) {
+
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+
+}
+
+@media (min-width:680px) {
+
+}
+
+@media (min-width:950px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:3200px) {
+
+}
+
+@media (min-width:680px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:3200px) {
+
+}
+
+@media only screen and (min-width:1460px) {
+
+}
+
+@media only screen and (min-width:980px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:1100px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:3200px) {
+
+}
+
+@media (min-width:680px) and (min-height:550px) {
+  .c0 {
+    display: none;
+  }
+}
+
+<div
+    class="c0"
+  >
+    <h1>
+      Your screen size isn't big enough to host a lobby
+    </h1>
+    <p>
+      Sorry :(
+    </p>
+  </div>
+  .c5 {
+  display: block;
+  border: 2px solid var(--primary-text-color);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7em;
+  background: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c5:hover,
+.c5:active,
+.c5:focus {
+  background: var(--accent-background-color);
+  cursor: pointer;
+}
+
+.c1 {
+  background-image: url(inactiveHamburger.svg);
+  background-size: cover;
+  background-color: transparent;
+  border: 0;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 .hamburger-container {
+  position: absolute;
+  right: 17px;
+  top: 11px;
+  z-index: 10100;
+}
+
+.c0 .host-layout-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  height: 50px;
+}
+
+.c0 .host-layout-header h2 {
+  position: relative;
+  bottom: -1px;
+  font-size: 1rem;
+  line-height: 0.8rem;
+}
+
+.c0 .components {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.c0 .components .left {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 200px;
+  background-color: var(--primary-background-color);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+}
+
+.c0 .components .right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  position: relative;
+  min-width: 440px;
+}
+
+.c2 {
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 486px;
+  padding: 40px;
+  background-color: var(--primary-background-color);
+  position: relative;
+}
+
+.c4 > div:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.c7 .loading {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.c7 .loading div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: var(--primary-background-color);
+  -webkit-animation: loading 1.2s cubic-bezier(0,0.5,0.5,1) infinite;
+  animation: loading 1.2s cubic-bezier(0,0.5,0.5,1) infinite;
+}
+
+.c7 .loading div:nth-child(1) {
+  left: 8px;
+  -webkit-animation-delay: -0.24s;
+  animation-delay: -0.24s;
+}
+
+.c7 .loading div:nth-child(2) {
+  left: 32px;
+  -webkit-animation-delay: -0.12s;
+  animation-delay: -0.12s;
+}
+
+.c7 .loading div:nth-child(3) {
+  left: 56px;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+.c11 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  overflow-y: auto;
+}
+
+.c11 h1 {
+  position: static;
+}
+
+.c12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 24px 0 24px 60px;
+}
+
+.c12 .number-input-wrapper label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.c12 input[type='number'] {
+  font-weight: bold;
+  text-align: center;
+  width: 80px;
+}
+
+.c12 .select-wrapper {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c12 .select-wrapper h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  height: 30px;
+}
+
+.c12 .select-wrapper .loader-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.c12 .card-packs {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(420px,1fr));
+  grid-template-rows: auto;
+  border: none;
+  margin: 0;
+  padding: 0 0 16px 0;
+}
+
+.c12 .card-packs label {
+  margin-right: 12px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: auto;
+}
+
+.c12 input[type='checkbox'] {
+  margin: 4px 11px auto 0;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 29px;
+}
+
+.c6 .join-code-title {
+  font-size: 18px;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+  font-weight: 700;
+  width: 97px;
+  height: 21px;
+}
+
+.c6 .join-code {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 56px;
+  font-weight: bold;
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+  width: 305px;
+  height: 70px;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+}
+
+.c10 .positionButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4px;
+  right: 4px;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: var(--primary-background-color);
+  padding: 8px 42px 8px 8px;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+}
+
+.c9 h2 {
+  line-height: 2.4rem;
+  font-size: 2rem;
+}
+
+.c9 h3 {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.c9 p {
+  margin: 8px;
+  font-size: 1.1rem;
+}
+
+.c9 ol {
+  margin: 8px;
+  line-height: 1.3rem;
+}
+
+.c9 li {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.c9 .howToWin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.c9 .snarkyText {
+  font-size: 0.6rem;
+  margin: 0 2px;
+  padding: 0;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+
+.c3 .player-list-wrapper {
+  overflow-x: auto;
+  border-bottom: 1px solid var(--primary-text-color);
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c3 .buttons-wrapper {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.c3 .bottom-left-wrapper {
+  margin: 20px auto 32px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.c3 .join-code-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c3 .host-pregame-button {
+  padding: 0;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  margin: auto auto 12px;
+}
+
+.c3 .start-carousing {
+  font-size: 0.875rem;
+  padding: 16px 34px;
+}
+
+.c3 .close-game {
+  font-size: 0.625rem;
+  padding: 8px 20px;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.c8 .top {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  height: 60%;
+  overflow-y: auto;
+}
+
+.c8 .bottom {
+  height: 40%;
+}
+
+@media (orientation:portrait) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:) {
+
+}
+
+@media (min-width:491px) {
+
+}
+
+@media (min-width:600px) {
+
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+
+}
+
+@media (min-width:680px) {
+
+}
+
+@media (min-width:950px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:3200px) {
+
+}
+
+@media (min-width:680px) {
+  .c0 .host-layout-header {
+    height: 130px;
+  }
+
+  .c0 .components .left {
+    min-width: 420px;
+  }
+
+  .c0 .components .host-layout-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: -4px;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 .components .left {
+    min-width: 700px;
+  }
+
+  .c0 .components .host-layout-header h2 {
+    font-size: 3.5rem;
+    margin-bottom: -35px;
+    line-height: 7rem;
+  }
+}
+
+@media (min-width:3200px) {
+  .c0 .host-layout-header {
+    height: 200px;
+  }
+
+  .c0 .components .left {
+    min-width: 1100px;
+  }
+
+  .c0 .components .host-layout-header h2 {
+    font-size: 6rem;
+    margin-bottom: -25px;
+    line-height: 7rem;
+  }
+}
+
+@media only screen and (min-width:1460px) {
+  .c11 h1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width:980px) {
+  .c11 h1 {
+    margin-left: auto;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: -0.5rem;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width:1600px) {
+  .c10 .positionButton {
+    margin: 0 4px;
+  }
+
+  .c10 img {
+    height: 72px;
+  }
+}
+
+@media (min-width:1100px) {
+  .c9 {
+    left: 8px;
+    right: 8px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  }
+
+  .c9 ol,
+  .c9 li {
+    line-height: 1.7rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c9 h2 {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+  }
+
+  .c9 h3 {
+    font-size: 2.5rem;
+    line-height: 2.3rem;
+  }
+
+  .c9 p {
+    margin: 14px;
+  }
+
+  .c9 p,
+  .c9 li {
+    font-size: 1.7rem;
+  }
+
+  .c9 ol,
+  .c9 li {
+    line-height: 2rem;
+    margin: 12px;
+  }
+
+  .c9 .snarkyText {
+    font-size: 1rem;
+    margin: 0 4px;
+    padding: 0;
+  }
+}
+
+@media (min-width:3200px) {
+  .c9 h2 {
+    font-size: 4rem;
+    line-height: 4.4rem;
+  }
+
+  .c9 h3 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .c9 p {
+    margin: 20px;
+    font-size: 2rem;
+  }
+
+  .c9 ol {
+    margin: 40px;
+  }
+
+  .c9 li {
+    margin: 10px;
+    font-size: 2rem;
+  }
+
+  .c9 .howToWin {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .c9 .snarkyText {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width:680px) and (min-height:550px) {
+
+}
+
+<div
+    class="c0 primary-background"
+  >
+    <div
+      class="hamburger-container"
+    >
+      <button
+        class="c1"
+      />
+    </div>
+    <div
+      class="components"
+    >
+      <div
+        class="left"
+      >
+        <header
+          class="c2 host-layout-header"
+        >
+          <h2>
+            CARDS OF CAROUSAL
+          </h2>
+        </header>
+        <div
+          class="c3"
+        >
+          <div
+            class="player-list-wrapper"
+          >
+            <div
+              class="c4"
+              data-testid="playerList-container"
+            />
+          </div>
+          <div
+            class="bottom-left-wrapper"
+          >
+            <div
+              class="buttons-wrapper"
+            >
+              <button
+                class="c5 host-pregame-button"
+              >
+                <div
+                  class="start-carousing"
+                >
+                  START CAROUSING
+                </div>
+              </button>
+              <button
+                class="c5 host-pregame-button"
+              >
+                <div
+                  class="close-game"
+                >
+                  CLOSE GAME
+                </div>
+              </button>
+            </div>
+            <div
+              class="join-code-wrapper"
+            >
+              <div
+                class="c6"
+              >
+                <p
+                  class="join-code-title"
+                >
+                  JOIN CODE:
+                </p>
+                <div
+                  class="join-code"
+                  data-testid="join-code"
+                >
+                  <div
+                    class="c7"
+                    color="1"
+                    data-testid="loader"
+                  >
+                    <div
+                      class="loading"
+                    >
+                      <div />
+                      <div />
+                      <div />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="right"
+      >
+        <div
+          class="c8"
+        >
+          <div
+            class="top"
+          >
+            <div
+              class="c9"
+            >
+              <div>
+                <h2>
+                  Welcome! ¡Bienvenidos! Добро пожаловать!
+                </h2>
+                <p>
+                  Cards of Carousal is your grandma's favorite online card game!
+                </p>
+                <p>
+                  Imagine if your indecency and crude taste in jokes was an advantage in life. It isn't, but in Cards of Carousal it can be!
+                </p>
+                <p>
+                  Long and short of this deal; one person (the Czar of the round) reads the black card on this screen. Everyone else submits a white card trying to be the Czar's favorite jester. More directions on the following pages if you're still confused.
+                </p>
+                <div
+                  class="c10"
+                >
+                  <button
+                    class="positionButton"
+                    type="button"
+                  >
+                    <img
+                      alt="active position indicator"
+                      src="blackCard.svg"
+                    />
+                  </button>
+                  <button
+                    class="positionButton"
+                    type="button"
+                  >
+                    <img
+                      alt="inactive position indicator"
+                      src="whiteCard.svg"
+                    />
+                  </button>
+                  <button
+                    class="positionButton"
+                    type="button"
+                  >
+                    <img
+                      alt="inactive position indicator"
+                      src="whiteCard.svg"
+                    />
+                  </button>
+                  <button
+                    class="positionButton"
+                    type="button"
+                  >
+                    <img
+                      alt="inactive position indicator"
+                      src="whiteCard.svg"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="bottom"
+          >
+            <div
+              class="c11"
+            >
+              <h1>
+                GAME SETTINGS
+              </h1>
+              <form
+                class="c12"
+              >
+                <div
+                  class="number-input-wrapper"
+                >
+                  <label
+                    for="maxPlayers"
+                  >
+                    MAX PLAYERS
+                    <input
+                      id="maxPlayers"
+                      max="12"
+                      min="2"
+                      name="maxPlayers"
+                      type="number"
+                      value="8"
+                    />
+                  </label>
+                  <label
+                    for="winningScore"
+                  >
+                    WINNING SCORE
+                    <input
+                      id="winningScore"
+                      max="15"
+                      min="1"
+                      name="winningScore"
+                      type="number"
+                      value="7"
+                    />
+                  </label>
+                </div>
+                <div
+                  class="select-wrapper"
+                >
+                  <h2>
+                    SELECT CARD PACKS
+                  </h2>
+                  <div
+                    class="loader-wrapper"
+                  >
+                    <div
+                      class="c7"
+                      color="1"
+                      data-testid="loader"
+                    >
+                      <div
+                        class="loading"
+                      >
+                        <div />
+                        <div />
+                        <div />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App snapshots should show the player screen after user has clicked the "join" button 1`] = `
+<DocumentFragment>
+  .c2 {
+  display: block;
+  border: 2px solid var(--primary-text-color);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7em;
+  background: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background: var(--accent-background-color);
+  cursor: pointer;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: center;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c4 p {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+
+.c4 a {
+  color: var(--secondary-text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  height: min(20vh,400px);
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 .welcome-to {
+  display: none;
+}
+
+.c1 .CoC {
+  font-size: clamp(48px,4.5vw,110px);
+  font-weight: 700;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-bottom: -7px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--primary-background-color);
+}
+
+.c0 main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.c0 .player-join-form-container {
+  width: 100%;
+  max-width: 1650px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.c0 .player-join-form-input-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .player-join-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 input {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  border-bottom: 2px solid var(--primary-text-color);
+  padding-top: 24px;
+  background: transparent;
+  padding-left: 0;
+  width: 268px;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c0 input::-moz-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c0 input::placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 268px;
+  height: 69px;
+  border-radius: 2px;
+  background-color: var(--secondary-background-color);
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+@media (orientation:portrait) {
+  .c4 {
+    height: 120px;
+    background-color: transparent;
+    color: var(--accent-text-color);
+  }
+
+  .c4 p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .c4 a {
+    color: var(--accent-text-color);
+    display: block;
+  }
+}
+
+@media (min-width:) {
+  .c4 {
+    height: 90px;
+  }
+
+  .c4 p,
+  .c4 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:) {
+  .c4 {
+    height: 110px;
+  }
+
+  .c4 p,
+  .c4 a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:) {
+  .c4 {
+    height: 122px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+  }
+
+  .c4 p,
+  .c4 a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:491px) {
+  .c1 .welcome-to {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: clamp(18px,1.7vw,42px);
+    margin-bottom: max(-0.7vw,-10px);
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
+
+@media (min-width:600px) {
+  .c1 .CoC {
+    margin-bottom: -8px;
+    margin-bottom: max(-0.8vw,-20px);
+  }
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+  .c1 {
+    height: 80px;
+  }
+}
+
+@media (min-width:680px) {
+
+}
+
+@media (min-width:950px) {
+
+}
+
+@media (min-width:1600px) {
+
+}
+
+@media (min-width:3200px) {
+
+}
+
+@media screen and (min-width:600px) {
+  .c0 .player-join-form-container {
+    margin-top: 0;
+  }
+
+  .c0 .player-join-form-input-container {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .c0 .player-join-name-input {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width:951px) {
+  .c0 input,
+  .c0 input::-webkit-input-placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input,
+  .c0 input::-moz-placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input,
+  .c0 input:-ms-input-placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input,
+  .c0 input::placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input {
+    width: 400px;
+  }
+
+  .c0 .player-join-name-input {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .c0 input,
+  .c0 input::-webkit-input-placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input,
+  .c0 input::-moz-placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input,
+  .c0 input:-ms-input-placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input,
+  .c0 input::placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input {
+    width: 500px;
+  }
+}
+
+@media (min-width:3200px) {
+  .c0 input,
+  .c0 input::-webkit-input-placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input,
+  .c0 input::-moz-placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input,
+  .c0 input:-ms-input-placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input,
+  .c0 input::placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input {
+    width: 900px;
+  }
+}
+
+@media screen and (max-height:567px) and (min-width:600px) {
+  .c0 .player-join-form-container {
+    margin-top: 0;
+  }
+
+  .c0 .player-join-form-input-container {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .c0 input {
+    width: 45%;
+  }
+
+  .c0 .player-join-name-input {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .c3 {
+    font-size: 1.5rem;
+    width: 256px;
+    height: 66px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .c3 {
+    font-size: 2.25rem;
+    width: 350px;
+    height: 82px;
+  }
+}
+
+@media (min-width:3200px) {
+  .c3 {
+    width: 490px;
+    height: 126px;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-height:567px) and (min-width:600px) {
+  .c3 {
+    margin-top: 30px;
+  }
+}
+
+<div
+    class="c0 primary-background"
+    data-testid="player-join-container"
+  >
+    <header
+      class="c1"
+      data-testid="header"
+    >
+      <h1
+        class="CoC"
+      >
+        CARDS OF CAROUSAL
+      </h1>
+    </header>
+    <main>
+      <div
+        class="player-join-form-container"
+      >
+        <form
+          class="player-join-form"
+        >
+          <div
+            class="player-join-form-input-container"
+          >
+            <input
+              class="player-join-name-input"
+              maxlength="12"
+              placeholder="name"
+              required=""
+              type="text"
+              value=""
+            />
+            <input
+              class="player-join-code-input"
+              maxlength="4"
+              placeholder="join code"
+              required=""
+              type="text"
+              value=""
+            />
+          </div>
+          <button
+            class="c2 c3"
+            data-testid="player-join-submit-button"
+            type="submit"
+          >
+            Let's Carouse!
+          </button>
+        </form>
+      </div>
+    </main>
+    <footer
+      class="c4"
+      data-testid="footer"
+    >
+      <p>
+        Card content thanks to: 
+        <a
+          href="https://cardsagainsthumanity.com"
+        >
+          https://cardsagainsthumanity.com
+        </a>
+      </p>
+      <p>
+        Made by Odin students, with love: 
+        <a
+          href="https://www.theodinproject.com"
+        >
+          https://www.theodinproject.com
+        </a>
+      </p>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`App snapshots should show the welcome screen after user has clicked elements other than the "host" or "join" buttons 1`] = `
+<DocumentFragment>
+  .c2 {
+  display: block;
+  border: 2px solid var(--primary-text-color);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7em;
+  background: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background: var(--accent-background-color);
+  cursor: pointer;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: center;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c3 p {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+
+.c3 a {
+  color: var(--secondary-text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  height: min(20vh,400px);
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 .welcome-to {
+  display: none;
+}
+
+.c1 .CoC {
+  font-size: clamp(48px,4.5vw,110px);
+  font-weight: 700;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-bottom: -7px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--primary-background-color);
+}
+
+.c0 main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.c0 .definition-container {
+  display: none;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  font-weight: 700;
+}
+
+.c0 .definition {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.c0 .definition-container p {
+  display: inline-block;
+}
+
+.c0 .button-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 .button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: 900;
+  width: 317px;
+  height: 82px;
+  font-size: 3.6rem;
+}
+
+.c0 .host-button {
+  display: none;
+}
+
+.c0 .OR {
+  display: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  border-radius: 50%;
+  padding: 16px;
+}
+
+@media (orientation:portrait) {
+  .c3 {
+    height: 120px;
+    background-color: transparent;
+    color: var(--accent-text-color);
+  }
+
+  .c3 p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .c3 a {
+    color: var(--accent-text-color);
+    display: block;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 90px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 110px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:) {
+  .c3 {
+    height: 122px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+  }
+
+  .c3 p,
+  .c3 a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:491px) {
+  .c1 .welcome-to {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: clamp(18px,1.7vw,42px);
+    margin-bottom: max(-0.7vw,-10px);
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
+
+@media (min-width:600px) {
+  .c1 .CoC {
+    margin-bottom: -8px;
+    margin-bottom: max(-0.8vw,-20px);
+  }
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+  .c1 {
+    height: 80px;
+  }
+}
+
+@media (min-width:680px) {
+  .c0 .OR {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 51px;
+    height: 51px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .c0 .host-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .c0 .definition-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 2.4rem;
+    line-height: 1.8rem;
+    margin-bottom: 70px;
+  }
+
+  .c0 .definition {
+    font-size: 1.5rem;
+  }
+
+  .c0 .button {
+    width: 200px;
+    height: 51px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:950px) {
+  .c0 .definition-container {
+    font-size: 3.2rem;
+    line-height: 2.6rem;
+    margin-bottom: 90px;
+  }
+
+  .c0 .definition {
+    font-size: 2.5rem;
+  }
+
+  .c0 .button {
+    width: 256px;
+    height: 66px;
+    font-size: 2.5rem;
+  }
+
+  .c0 .OR {
+    width: 66px;
+    height: 66px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:1600px) {
+  .c0 .definition-container {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 4.2rem;
+    margin-bottom: 190px;
+  }
+
+  .c0 .definition {
+    font-size: 3.5rem;
+  }
+
+  .c0 .button {
+    width: 290px;
+    height: 74px;
+    font-size: 3.2rem;
+  }
+
+  .c0 .OR {
+    width: 74px;
+    height: 74px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width:3200px) {
+  .c0 .definition-container {
+    font-size: 6.5rem;
+    line-height: 4.8rem;
+    margin-bottom: 300px;
+  }
+
+  .c0 .definition {
+    font-size: 5rem;
+  }
+
+  .c0 .button {
+    width: 490px;
+    height: 126px;
+    font-size: 5.2rem;
+  }
+
+  .c0 .OR {
+    width: 126px;
+    height: 126px;
+    margin-left: 93px;
+    margin-right: 93px;
+    font-size: 3.8rem;
+  }
+}
+
+<div
+    class="c0 primary-background"
+  >
+    <header
+      class="c1"
+      data-testid="header"
+    >
+      <p
+        class="welcome-to"
+        data-testid="welcome-text"
+      >
+        WELCOME TO
+      </p>
+      <h1
+        class="CoC"
+      >
+        CARDS OF CAROUSAL
+      </h1>
+    </header>
+    <main>
+      <div
+        class="definition-container"
+      >
+        <p
+          class="word"
+        >
+          CAROUSAL 
+          <span
+            class="definition"
+          >
+            (n)
+          </span>
+        </p>
+        <p
+          class="definition"
+        >
+          a wild, drunken party or celebration : a drunken revel
+        </p>
+      </div>
+      <div
+        class="button-container"
+      >
+        <button
+          class="c2 button"
+          type="button"
+        >
+          <p>
+            JOIN
+          </p>
+        </button>
+        <div
+          class="OR"
+        >
+          OR
+        </div>
+        <button
+          class="c2 button host-button"
+          type="button"
+        >
+          <p>
+            HOST
+          </p>
+        </button>
+      </div>
+    </main>
+    <footer
+      class="c3"
+      data-testid="footer"
+    >
+      <p>
+        Card content thanks to: 
+        <a
+          href="https://cardsagainsthumanity.com"
+        >
+          https://cardsagainsthumanity.com
+        </a>
+      </p>
+      <p>
+        Made by Odin students, with love: 
+        <a
+          href="https://www.theodinproject.com"
+        >
+          https://www.theodinproject.com
+        </a>
+      </p>
+    </footer>
+  </div>
+</DocumentFragment>
+`;

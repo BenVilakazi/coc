@@ -1,0 +1,61 @@
+:root {
+  font-family: 'Roboto', 'sans-serif';
+
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --accent-color: #8c8c8c;
+
+  --primary-background-color: var(--primary-color);
+  --primary-text-color: var(--secondary-color);
+  --secondary-background-color: var(--secondary-color);
+  --secondary-text-color: var(--primary-color);
+  --accent-background-color: var(--accent-color);
+  --accent-text-color: var(--accent-color);
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.buttons-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, 200px);
+
+  margin: 20px;
+}
+
+.header {
+  height: 300px;
+}
+
+.primary-background,
+.primary-background-modal {
+  position: relative;
+  overflow: hidden;
+}
+
+.primary-background::before,
+.primary-background-modal::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  background-image: url('./assets/halftone-effect.svg');
+  background-size: contain;
+  transform: rotate(11deg) translate(-450px, calc(-1250px + (2vh * 30)));
+  background-repeat: repeat-x;
+  height: 5000px;
+  width: 4200px;
+}
+
+.primary-background-modal::before {
+  background-color: var(--primary-background-color);
+  transform: rotate(11deg) translate(-3000px, calc(-1150px));
+}
+
+@media (min-width: 2470px) {
+  .primary-background::before {
+    transform: rotate(11deg) translate(-450px, calc(-1600px + (2vh * 30)));
+  }
+}

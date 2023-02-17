@@ -1,0 +1,515 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerJoin snapshot matches 1`] = `
+.c2 {
+  display: block;
+  border: 2px solid var(--primary-text-color);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0.7em;
+  background: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c2:hover,
+.c2:active,
+.c2:focus {
+  background: var(--accent-background-color);
+  cursor: pointer;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  text-align: center;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+}
+
+.c4 p {
+  text-align: right;
+  position: relative;
+  font-size: 13px;
+}
+
+.c4 a {
+  color: var(--secondary-text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1 {
+  height: min(20vh,400px);
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.c1 .welcome-to {
+  display: none;
+}
+
+.c1 .CoC {
+  font-size: clamp(48px,4.5vw,110px);
+  font-weight: 700;
+  line-height: 100%;
+  padding-right: 5px;
+  margin-bottom: -7px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: var(--primary-background-color);
+}
+
+.c0 main {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.c0 .player-join-form-container {
+  width: 100%;
+  max-width: 1650px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.c0 .player-join-form-input-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 .player-join-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c0 input {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  border-bottom: 2px solid var(--primary-text-color);
+  padding-top: 24px;
+  background: transparent;
+  padding-left: 0;
+  width: 268px;
+}
+
+.c0 input::-webkit-input-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c0 input::-moz-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c0 input:-ms-input-placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c0 input::placeholder {
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 268px;
+  height: 69px;
+  border-radius: 2px;
+  background-color: var(--secondary-background-color);
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+@media (orientation:portrait) {
+  .c4 {
+    height: 120px;
+    background-color: transparent;
+    color: var(--accent-text-color);
+  }
+
+  .c4 p {
+    text-align: center;
+    padding-bottom: 32px;
+  }
+
+  .c4 a {
+    color: var(--accent-text-color);
+    display: block;
+  }
+}
+
+@media (min-width:) {
+  .c4 {
+    height: 90px;
+  }
+
+  .c4 p,
+  .c4 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:) {
+  .c4 {
+    height: 110px;
+  }
+
+  .c4 p,
+  .c4 a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:) {
+  .c4 {
+    height: 122px;
+    padding-right: 16px;
+    padding-bottom: 2px;
+  }
+
+  .c4 p,
+  .c4 a {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:491px) {
+  .c1 .welcome-to {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: clamp(18px,1.7vw,42px);
+    margin-bottom: max(-0.7vw,-10px);
+    font-weight: 500;
+    line-height: 100%;
+  }
+}
+
+@media (min-width:600px) {
+  .c1 .CoC {
+    margin-bottom: -8px;
+    margin-bottom: max(-0.8vw,-20px);
+  }
+}
+
+@media (orientation:landscape) and (max-height:500px) {
+  .c1 {
+    height: 80px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .c0 .player-join-form-container {
+    margin-top: 0;
+  }
+
+  .c0 .player-join-form-input-container {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .c0 .player-join-name-input {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width:951px) {
+  .c0 input,
+  .c0 input::-webkit-input-placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input,
+  .c0 input::-moz-placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input,
+  .c0 input:-ms-input-placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input,
+  .c0 input::placeholder {
+    font-size: 1.8rem;
+  }
+
+  .c0 input {
+    width: 400px;
+  }
+
+  .c0 .player-join-name-input {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .c0 input,
+  .c0 input::-webkit-input-placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input,
+  .c0 input::-moz-placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input,
+  .c0 input:-ms-input-placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input,
+  .c0 input::placeholder {
+    font-size: 2.5rem;
+  }
+
+  .c0 input {
+    width: 500px;
+  }
+}
+
+@media (min-width:3200px) {
+  .c0 input,
+  .c0 input::-webkit-input-placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input,
+  .c0 input::-moz-placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input,
+  .c0 input:-ms-input-placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input,
+  .c0 input::placeholder {
+    font-size: 3rem;
+  }
+
+  .c0 input {
+    width: 900px;
+  }
+}
+
+@media screen and (max-height:567px) and (min-width:600px) {
+  .c0 .player-join-form-container {
+    margin-top: 0;
+  }
+
+  .c0 .player-join-form-input-container {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .c0 input {
+    width: 45%;
+  }
+
+  .c0 .player-join-name-input {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .c3 {
+    font-size: 1.5rem;
+    width: 256px;
+    height: 66px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width:1600px) {
+  .c3 {
+    font-size: 2.25rem;
+    width: 350px;
+    height: 82px;
+  }
+}
+
+@media (min-width:3200px) {
+  .c3 {
+    width: 490px;
+    height: 126px;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-height:567px) and (min-width:600px) {
+  .c3 {
+    margin-top: 30px;
+  }
+}
+
+<div
+  className="c0 primary-background"
+  data-testid="player-join-container"
+>
+  <header
+    className="c1"
+    data-testid="header"
+  >
+    <h1
+      className="CoC"
+    >
+      CARDS OF CAROUSAL
+    </h1>
+  </header>
+  <main>
+    <div
+      className="player-join-form-container"
+    >
+      <form
+        className="player-join-form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="player-join-form-input-container"
+        >
+          <input
+            className="player-join-name-input"
+            maxLength="12"
+            onChange={[Function]}
+            placeholder="name"
+            required={true}
+            type="text"
+            value=""
+          />
+          <input
+            className="player-join-code-input"
+            maxLength="4"
+            onChange={[Function]}
+            placeholder="join code"
+            required={true}
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          className="c2 c3"
+          data-testid="player-join-submit-button"
+          type="submit"
+        >
+          Let's Carouse!
+        </button>
+      </form>
+    </div>
+  </main>
+  <footer
+    className="c4"
+    data-testid="footer"
+  >
+    <p>
+      Card content thanks to:
+       
+      <a
+        href="https://cardsagainsthumanity.com"
+      >
+        https://cardsagainsthumanity.com
+      </a>
+    </p>
+    <p>
+      Made by Odin students, with love:
+       
+      <a
+        href="https://www.theodinproject.com"
+      >
+        https://www.theodinproject.com
+      </a>
+    </p>
+  </footer>
+</div>
+`;

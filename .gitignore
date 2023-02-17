@@ -1,0 +1,4 @@
+node_modules
+**/.eslintcache
+backend/env.js
+.gitattributes
